@@ -1,0 +1,20 @@
+{
+  "name": "node-lib-md",
+  "version": "1.0.0",
+  "description": "A Node.js library for validating links in MarkDown files.",
+  "main": "./cli.js",
+  "type": "module",
+  "scripts": {
+    "cli": "node ./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaopsilv/node-lib-md.git"
+  },
+  "keywords": ["markdown", "URL"],
+  "author": "João Pedro Gentil da Silveira",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "5.3.0"
+  }
+}
